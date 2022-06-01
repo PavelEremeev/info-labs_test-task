@@ -1,11 +1,14 @@
 import React from 'react';
 import RootElement from './RootElement';
+import './Root.css'
 
 function Root({data}) {
     console.log(data)
     return (
-        <aside className='aside'>    
+        <aside className='aside'>
+            <div className='aside__wrapper'>
             {data.map((elem, i) => <RootElement props={elem} key={i}/>)}
+            </div>  
         </aside>
     );
 }

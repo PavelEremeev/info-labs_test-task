@@ -1,0 +1,15 @@
+.root-element {
+
+}
+
+.root-element__wrapper {
+    margin: 5px 60px 20px;
+}
+
+.root-element__title {
+   margin: 5px 50px 5px 50px ;
+}
+
+.root-element__text {
+    margin: 5px;
+}
